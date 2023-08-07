@@ -1,0 +1,26 @@
+{
+    "name": "my-scene",
+    "version": "1.0.0",
+    "description": "A Decentraland Scene",
+    "main": "src/game.ts",
+    "scripts": {
+        "start": "dcl start",
+        "test": "dcl test",
+        "build": "dcl build",
+        "watch": "build-ecs --watch",
+        "ecs:install": "npm install --save-dev decentraland-ecs@latest",
+        "ecs:install-next": "npm install --save-dev decentraland-ecs@next",
+        "lint": "eslint . --ext .ts",
+        "lint:fix": "eslint . --ext .ts --fix"
+    },
+    "dependencies": {
+        "decentraland-ecs": "^6.6.2"
+    },
+    "devDependencies": {
+        "@dcl/eslint-config": "^1.0.1",
+        "@types/node": "^12.12.6",
+        "decentraland-ecs": "latest",
+        "typescript": "^3.7.2"
+    }
+}
+  
