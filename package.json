@@ -20,7 +20,7 @@
         "@dcl/eslint-config": "^1.0.1",
         "@types/node": "^12.12.6",
         "decentraland-ecs": "latest",
-        "typescript": "^3.7.2"
+        "typescript": "^5.5.4"
     }
 }
   
