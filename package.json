@@ -17,7 +17,7 @@
         "decentraland-ecs": "^6.6.2"
     },
     "devDependencies": {
-        "@dcl/eslint-config": "^1.0.1",
+        "@dcl/eslint-config": "^2.2.1",
         "@types/node": "^22.1.0",
         "decentraland-ecs": "latest",
         "typescript": "^5.5.4"
